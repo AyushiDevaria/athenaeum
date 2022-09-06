@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body{
+    background: hsla(205, 46%, 10%, 1);
+
+background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1 );
+     
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: handlee ;   
+}
+
+.searchBar{ 
+    border: 1px solid #d3d3d3;
+    top: 25%;
+	left: 50%;
+    padding: 2px  5px ;
+    position: absolute;
+	margin: -22px 0 0 -170px;
+    width:350px;
+    box-shadow:0 4px 9px rgba(0,0,0,.37);
+    border-radius: 10px; 
+    background: #2f3640;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline: none;
+    float:left ;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 40px;
+    width: 200px;
+}
+
+.searchButton{
+    color: #2f3640;
+    float: right;
+    width: 70px;
+    height: 40px;
+    border-radius: 10%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button{
+    color: #2f3640;
+    float: right;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    white-space: pre-line;
+}
+.resultsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 0 0 5px 0;
+}
+.results{
+    display: grid;
+    width: 50%;
+    margin: auto ;
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 50px ;
+    box-sizing: border-box;
+}
+
+.image{ 
+    box-shadow:0 4px 9px rgba(0,0,0,.37); 
+}
+
+.booktitle{
+    font-size: 120%;
+    font-family: handlee;
+    color: white;
+    width: 120%;
+    margin-top: 20px;
+}
+
+.authorname{
+    font-size: 100%;
+    font-family: handlee;
+    color: white;
+}
+
+
+
+
+
+
+
+   
+    
+    
+   
+    
+   
+  
+   
+
+
+
+
+
+
+
+    
+
+
+
+
